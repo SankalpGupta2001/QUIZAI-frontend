@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import Spinner from 'react-bootstrap/Spinner';
-import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 import "./App.css";
 
