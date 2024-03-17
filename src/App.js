@@ -101,7 +101,7 @@ function App() {
 
 
 
-    axios.post("http://localhost:5000/generate-questions", formData)
+    axios.post("https://quizai-backend.onrender.com/generate-questions", formData)
       .then((response) => {
         let resposneString = response.data.questions;
         setJSONString(resposneString);
